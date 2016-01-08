@@ -1,0 +1,245 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  font-size: 16px;
+  color: #565252;
+}
+body #page {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #565252;
+}
+body #page header {
+  font-size: 16px;
+  width: 1200px;
+  margin: 0 auto;
+  float: left;
+}
+body #page header .site-branding {
+  padding: 0 15px;
+  float: left;
+  width: 30%;
+}
+body #page header .site-branding h1,
+body #page header .site-branding h2,
+body #page header .site-branding h3,
+body #page header .site-branding h4,
+body #page header .site-branding h5,
+body #page header .site-branding h6,
+body #page header .site-branding p {
+  margin: 0;
+}
+body #page #content {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  float: left;
+  font-size: 16px;
+}
+body #page #content #form_db_tab {
+  width: 50%;
+  margin: 0 auto;
+  float: left;
+  margin: 0 25%;
+}
+body #page #content #form_db_tab form div {
+  display: table;
+  padding: 10px 15px;
+  margin: 0;
+  float: left;
+  width: 100%;
+}
+body #page #content #form_db_tab form div div.field_desc {
+  width: 50%;
+  display: table-cell;
+  box-sizing: border-box;
+  vertical-align: middle;
+  font-size: 16px;
+  float: none;
+}
+body #page #content #form_db_tab form div div.field {
+  width: 50%;
+  float: none;
+  display: table-cell;
+  vertical-align: middle;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+body #page #content #form_db_tab form div div.field input {
+  font-size: 16px;
+  padding: 5px 15px;
+  border-radius: 4px;
+}
+body #page #content #form_db_tab form div div.field input[type="text"],
+body #page #content #form_db_tab form div div.field input[type='password'] {
+  border: 1px solid #ABABAB;
+}
+body #page #content #form_db_tab form div div.field input[type="text"]:focus,
+body #page #content #form_db_tab form div div.field input[type='password']:focus {
+  border: 1px solid #565252;
+  outline: none;
+}
+body #page #content #form_db_tab .result {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 0 15px;
+}
+body #page #content #form_db_tab .result h1,
+body #page #content #form_db_tab .result h2,
+body #page #content #form_db_tab .result h3,
+body #page #content #form_db_tab .result h4,
+body #page #content #form_db_tab .result h5,
+body #page #content #form_db_tab .result h6,
+body #page #content #form_db_tab .result p {
+  margin: 5px 0;
+}
+body #page #content .dashboard {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 0 15px;
+}
+body #page #content .dashboard h1,
+body #page #content .dashboard h2,
+body #page #content .dashboard h3,
+body #page #content .dashboard h4,
+body #page #content .dashboard h5,
+body #page #content .dashboard h6,
+body #page #content .dashboard p {
+  margin: 5px 0;
+}
+body #page #content .dashboard .tab-items-bar {
+  width: 100%;
+  display: block;
+  float: left;
+}
+body #page #content .dashboard .tab-items-bar ul {
+  width: 100%;
+  margin: 15px 0 0;
+  padding: 0;
+  list-style-type: none;
+  float: left;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ABABAB;
+}
+body #page #content .dashboard .tab-items-bar ul li {
+  display: inline;
+  box-sizing: border-box;
+  float: left;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+body #page #content .dashboard .tab-items-bar ul li.active a {
+  text-decoration: underline;
+  color: #F1BE71;
+  border-color: #F3F2F2;
+  background: #F3F2F2;
+  box-sizing: border-box;
+}
+body #page #content .dashboard .tab-items-bar ul li a {
+  text-decoration: none;
+  color: #ABABAB;
+  display: block;
+  padding: 5px 30px;
+  border: 1px solid #ABABAB;
+  border-bottom: none;
+  box-sizing: border-box;
+}
+body #page #content .dashboard .tab-items-bar ul li a:hover {
+  text-decoration: underline;
+  color: #F1BE71;
+  border-color: #F3F2F2;
+  background: #F3F2F2;
+  box-sizing: border-box;
+}
+body #page #content .dashboard .tab-section {
+  width: 100%;
+  display: block;
+  float: left;
+}
+body #page #content .dashboard .tab-section h1,
+body #page #content .dashboard .tab-section h2,
+body #page #content .dashboard .tab-section h3,
+body #page #content .dashboard .tab-section h4,
+body #page #content .dashboard .tab-section h5,
+body #page #content .dashboard .tab-section h6,
+body #page #content .dashboard .tab-section p {
+  margin: 0;
+}
+body #page #content .dashboard .tab-section .tab-blocks {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+body #page #content .dashboard .tab-section .tab-blocks li {
+  width: 100%;
+  display: none;
+}
+body #page #content .dashboard .tab-section .tab-blocks li.active {
+  display: block;
+}
+body #page #content .dashboard .tab-section .tab-blocks li .tab-header {
+  height: 60px;
+  display: table;
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #ABABAB;
+}
+body #page #content .dashboard .tab-section .tab-blocks li .tab-header h1,
+body #page #content .dashboard .tab-section .tab-blocks li .tab-header h2,
+body #page #content .dashboard .tab-section .tab-blocks li .tab-header h3,
+body #page #content .dashboard .tab-section .tab-blocks li .tab-header h4,
+body #page #content .dashboard .tab-section .tab-blocks li .tab-header h5,
+body #page #content .dashboard .tab-section .tab-blocks li .tab-header h6 {
+  display: table-cell;
+  vertical-align: middle;
+}
+body #page #content .dashboard .tab-section .tab-blocks li .tab-actions {
+  padding-top: 50px;
+  float: left;
+}
+body #page #content .dashboard .tab-section .tab-blocks li .tab-actions form {
+  width: 80%;
+  padding: 0 10%;
+}
+body #page #content .dashboard .tab-section .tab-blocks li .tab-actions form div {
+  margin: 20px 0;
+  width: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  float: left;
+}
+body #page #content .dashboard .tab-section .tab-blocks li .tab-actions form div span {
+  font-size: 21px;
+  font-weight: 600;
+}
+body #page #content .dashboard .tab-section .tab-blocks li .tab-actions form div.action_button {
+  width: 100%;
+}
+body #page #content .dashboard .tab-section .tab-blocks li .tab-actions form div input[type="submit"] {
+  border: none;
+  color: #FFF;
+  padding: 10px 25px;
+  font-size: 21px;
+  background: #61A55B;
+  border-radius: 4px;
+  float: right;
+}
+body #page #content .dashboard .tab-section .tab-blocks li .tab-actions form div input[type="submit"]:hover {
+  background: rgba(97, 165, 91, 0.72);
+}
+body #page #content .dashboard .tab-section .tab-blocks li.tab-content {
+  display: none;
+}
+body #page #content .dashboard .tab-section .tab-blocks li.tab-content.active {
+  display: block;
+}

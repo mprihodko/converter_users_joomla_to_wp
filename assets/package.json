@@ -1,0 +1,16 @@
+{
+  "name": "my-project-name",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-compass": "^1.0.3",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-imagemin": "^1.0.0",
+    "grunt-contrib-nodeunit": "latest",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-sprite-generator": "0.0.5"
+  }
+}
